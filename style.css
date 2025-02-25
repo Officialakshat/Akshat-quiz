@@ -1,67 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #3eecac;
+body {
+  background-color: #3eecac;
 }
 
-.main{
-    width: 40%;
-    background-color: white;
-    padding: 10px;
+.main {
+  width: 40%;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  max-width: 500px;
+  margin: 100px auto 20px;
+  padding: 60px 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.main h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(78, 78, 228);
+  padding-bottom: 10px;
+  border-bottom: 1px solid slategray;
+}
+
+.main h2 {
+  margin: 20px 0px;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(78, 78, 228);
+}
+
+.btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 500;
+  transition: all 0.3s;
+  text-align: left;
+  cursor: pointer;
+}
+
+.btn:hover:not([disabled]) {
+  background: #222;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+.next-btn-div {
+  width: 100;
+}
+
+.next-btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(78, 78, 228);
+  border: 0px;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+#next-btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(78, 78, 228);
+  border: 0px;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background-color: #3eecac;
+}
+
+.incorrect {
+  background-color: rgb(190, 22, 22);
+}
+@media screen and (max-width: 800px) {
+  .main {
+    width: 70%;
+    /* background-color: white; */
+    /* padding: 10px;
     text-align: center;
     max-width: 500px;
     margin: 100px auto 20px;
     padding: 60px 20px;
     text-align: left;
-    border-radius: 10px;
-}
-
-.main h1{
-    font-size: 30px;
-    font-weight: 500;
-    color: rgb(78, 78, 228);;
-    padding-bottom: 10px;
-    border-bottom: 1px solid slategray;
-}
-
-.main h2{
-    margin: 20px 0px;
-    font-size: 25px;
+    border-radius: 10px; */
+  }
+  .main h1 {
+    font-size: 20px;
     font-weight: 400;
-    color: rgb(78, 78, 228);;
+  }
 
+  .main h2 {
+    font-size: 20px;
+  }
 }
-
-.btn{
-    width: 100%;
-    margin: 10px auto;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 0px;
-    text-align: left;
-}
-
-.next-btn-div{
-    width: 100;
-}
-
-.next-btn{
-    padding: 10px 30px;
-    border-radius: 10px;
-    color: white;
-    background-color: rgb(78, 78, 228);
-    border: 0px;
-    margin: 20px auto ;
-    text-align: center;
-    cursor: pointer;
-    display: none;
-}
-
-/* @media screen and () {
-    
-} */

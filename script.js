@@ -11,9 +11,9 @@ const questions = [
   {
       question: "What is the largest city in India by population?",
       answers: [
-          { text: "Delhi", correct: false },
+          { text: "Delhi", correct:  true },
           { text: "Chandigarh", correct: false },
-          { text: "Mumbai", correct: true },
+          { text: "Mumbai", correct: false},
           { text: "Pune", correct: false },
       ]
   },
